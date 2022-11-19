@@ -1,0 +1,247 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+     overflow: hidden;
+}
+.topber{
+	background-color: #0C00FF ;
+	padding: 10px;
+}
+.container{
+	margin: auto;
+	width: 1300px;
+}
+.contact-info{
+	width: 75%;
+	float: left;
+}
+.contact-info a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+
+}
+.contact-info i {
+	padding: 8px
+}
+.social-info {
+	width: 15%;
+	float: right;
+}
+.social-info a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size:15px;
+}
+.social-info i{
+	padding: 8px;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+	height:60px;
+	width: 200px;
+	padding: 10px;
+}
+.navbar{
+	width: 50%;
+	float: right;
+
+
+}
+.navbar a {
+	float: left;
+	font-size: 18px;
+	color: #0C00FF;
+	text-decoration: none;
+	padding: 30px;
+}
+.dropdown{
+	float: left;
+}
+.dropdown .btn-drop{
+	border: none;
+	outline: none;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: 18px;
+	color: #0C00FF;
+	padding: 30px 16px;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	width: 200px;
+}
+.dropdown-content a {
+	float: none;
+	font-size: 18px;
+	color: #39939E;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown-content a:hover{
+	background-color: #DDDDDD;
+}
+.slider img{
+	height: 500px;
+	width: 100%;
+}
+.heading h1{
+	text-align: center;
+	color: #0C00FF;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.about-text{
+	width: 48%;
+	float: left;
+	padding: 20px;
+}
+.about-text p{
+	font-size: 16px;
+	line-height: 29px;
+}
+.btn-about{
+	background-color:#0C00FF ;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+.about-image{
+	width: 48%;
+	float: right;
+
+}
+.about-image img{
+	width: 100%;
+	height: 370px;
+	border-radius: 20px;
+}
+.head {}
+.head h1{
+
+	text-align: center;
+	color: #0C00FF;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	padding: 10px;
+
+}
+.service{
+	float: left;
+	border: 1px solid #0C00FF ;
+	width: 240px;
+	margin: 25px;
+	padding: 12px;
+	text-align: center;
+	background-color: bisque ;
+	
+}
+.service:hover{
+	background-color: #0C00FF;
+	color: white;
+	border-radius: 50px 20px;
+     transition: .8s;	
+}
+.service:hover i {
+	color: white;
+}
+.service i{
+	font-size: 60px;
+	color: #0C00FF ;
+	
+}
+
+
+.btn-service{
+	background-color: white;
+	color: black; 
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 20px;
+}
+.head-2 h1{
+	text-align: center;
+	color: #0C00FF;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.team{
+	width: 285px;
+	position: relative;
+	float: left;
+	margin: 20px;
+}
+.team img{
+	width: 100%;
+	height: 245px;
+}
+.team-overlay{
+	position: absolute;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	opacity: 0;
+}
+.team:hover .team-overlay{
+
+	opacity: 1;
+}
+.map{
+	width: 45%;
+	float: left;
+}
+.message{
+	width: 45%;
+	float: right;
+}
+.message h2{
+	text-align: center;
+	color: blue;
+}
+input[type=text]{
+	width: 100%;
+	margin: 15px 0;
+	padding: 10px 0;
+	border: 2px solid blue;
+}
+
+
+textarea{
+	width: 100%;
+	margin: 20px 0;
+	padding:30px 0;
+	border: 2px solid blue;
+}
+input[type=submit]{
+	background-color: blue;
+	color: white; 
+	padding: 10px 10px;
+	text-decoration: none;
+	border-radius: 10px;
+	border: none;
+	margin: 10px ;
+	
+}
+label{
+	color: blue;
+	font-size: 18px;
+	
+}

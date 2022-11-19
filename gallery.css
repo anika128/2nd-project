@@ -1,0 +1,113 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:  sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 40px 20px 0 20px;
+	
+}
+
+.navbar{
+	width: 50%;
+	float: right;
+
+
+}
+.navbar a {
+	float: left;
+	font-size: 18px;
+	color: #0C00FF;
+	text-decoration: none;
+	padding: 30px;
+}
+.dropdown{
+	float: left;
+}
+.dropdown .btn-drop{
+	border: none;
+	outline: none;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: 18px;
+	color: #0C00FF;
+	padding: 30px 16px;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	width: 200px;
+}
+.dropdown-content a {
+	float: none;
+	font-size: 18px;
+	color: #39939E;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown-content a:hover{
+	background-color: #DDDDDD;
+}
+
+.heading{
+	width: 50%;
+	padding-bottom: 50px;
+}
+.heading h3{
+	font-size: 3em;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 4px solid blue;
+}
+.heading h3 span{
+	font-weight: 100;
+}
+.box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.dream{
+	display: flex;
+	flex-direction: column;
+	width: 32.5%;
+}
+.dream img{
+	width: 100%;
+	padding-bottom: 15px;
+	border-radius: 10px 10px;
+}
+.dream img:hover{
+	box-shadow: 0 5px 35px rgba(0, 0, 0, 0.70) ;
+}
+.btn{
+	margin: 70px 0 70px 0;
+	background-color: blue;
+	padding: 15px 40px;
+	border-radius: 10px;
+
+}
+.btn:hover{
+	box-shadow: 0 5px 35px rgba(0, 0, 0, 0.50);
+}
+.btn a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
